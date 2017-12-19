@@ -14,4 +14,6 @@ Button.prototype = {
 }
 
 var btn1 = new Button('Hello!');
-
+var btn2 = new Button('CZEŚĆ!');
+btn1.create();
+btn2.create();
